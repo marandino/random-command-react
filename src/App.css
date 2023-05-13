@@ -15,3 +15,21 @@ Main Colors:
   font-family: "Tomorrow", sans-serif;
   text-align: center;
 }
+
+/* Navbar Styles */
+.navbar {
+  position: absolute;
+  top: 1rem;
+  /* margin: auto; */
+}
+.navbar ul {
+  list-style-type: none;
+  text-transform: capitalize;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
