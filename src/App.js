@@ -12,6 +12,8 @@ function App() {
       </nav>
       <main>
         <h1>Random Command</h1>
+        <h2>Totally Randomized Command Generator</h2>
+        <button className="primary">Generate</button>
       </main>
     </div>
   );

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-it("Renders the navbar and it's elements", () => {
+it("renders the navbar and it's elements", () => {
   render(<App />);
   // if there's no navigation role, it will throw an error, that's why I'm using getBy'
   screen.getByRole("navigation");
@@ -12,8 +12,8 @@ it("Renders the navbar and it's elements", () => {
   screen.getByText(/rules/i);
 });
 
-it("Renders the title, and main button", () => {
+it("renders the title, and main button", () => {
   render(<App />);
-  const title = screen.getByText(/Random Command/i);
-  expect(title).toBeInTheDocument();
+  screen.getByText(/Random Command/i);
+  screen.getByRole("button");
 });
