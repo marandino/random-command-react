@@ -3,8 +3,6 @@ import "./App.css";
 import generateCommand from "./utils/generatorFunction";
 
 function App() {
-  // create a function that generates the strings
-  // var randomCommand = "Totally Randomized Command Generator";
   const [randomCommand, setRandomCommand] = useState(
     "Totally Randomized Command Generator"
   );

@@ -22,7 +22,7 @@ it("renders the title, and main button", () => {
 test("clicking the button generates a new command", async () => {
   render(<App />);
   // check if the button exists.
-  const generateButton = screen.getByRole("button"); //TODO: make this more specific, by targeting the main button. Right now, there's only one button on screen so it doesn´t fail.
+  const generateButton = screen.getByRole("button", { name: /generate/i });
   // get the subheader, the element with the "command"
   const subHeaderElement = screen.getByTestId("randomCommand");
   // store the value before the click
