@@ -22,7 +22,9 @@ function App() {
         </ul>
       </nav>
       <main>
-        <h1>Random Command</h1>
+        <h1>
+          Random Command<span className="underscore"></span>
+        </h1>
         <h2 data-testid="randomCommand">{randomCommand}</h2>
         <button className="primary" onClick={generateNewCommand}>
           Generate
