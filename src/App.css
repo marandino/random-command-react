@@ -17,6 +17,7 @@ Main Colors:
 
 main {
   padding-top: 30vh;
+  margin: 0 .5rem;
 }
 
 h1 {
@@ -25,10 +26,6 @@ h1 {
 
 h2 {
   font-size: 1.2rem;
-}
-
-h2.random-command {
-  padding: auto 1.5rem;
 }
 
 /* Navbar Styles */
