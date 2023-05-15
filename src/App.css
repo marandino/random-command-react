@@ -6,14 +6,17 @@ Main Colors:
 
 .App {
   background-color: #bf211eff;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30vh;
   color: white;
   font-family: "Tomorrow", sans-serif;
   text-align: center;
+}
+
+main {
+  padding-top: 30vh;
 }
 
 h1 {
