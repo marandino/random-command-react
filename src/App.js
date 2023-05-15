@@ -23,7 +23,7 @@ function App() {
         <h1>
           Random Command<span className="underscore"></span>
         </h1>
-        <h2 data-testid="randomCommand">{randomCommand}</h2>
+        <h2 className="random-command" data-testid="randomCommand">{randomCommand}</h2>
         <button className="primary" onClick={generateNewCommand}>
           Generate
         </button>
