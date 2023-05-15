@@ -47,6 +47,11 @@ nav {
   cursor: pointer;
 }
 
+.navbar li:hover {
+  color: #fde74cff;
+}
+/* End of Navbar Styles */
+
 button.primary {
   padding: 1em;
   margin-top: 1rem;
