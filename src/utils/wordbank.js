@@ -689,3 +689,10 @@ export const prepositions = [
   "while standing on",
   "while standing on",
 ];
+
+export const abbaLyrics = [
+  "Gimme Gimme Gimme",
+  "A man after midnight",
+  "Won't somebody help me",
+  "Chase the shadows away",
+];
