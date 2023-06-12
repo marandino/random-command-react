@@ -43,7 +43,7 @@ nav {
   margin: auto;
 }
 
-.navbar li {
+.navbar li, button {
   cursor: pointer;
 }
 
